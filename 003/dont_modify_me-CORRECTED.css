@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-#main{
-    left:50%;
-    right:50%;
+#main {
+    left: 50%;
+    right: 50%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -37,12 +37,13 @@ p {
     text-align: justify;
     text-justify: inter-word;
 }
-#chapters
-{
+
+#chapters {
     display: flex;
     box-shadow: 1px 1px 4px #dddddd;
 }
-#chapters p{
+
+#chapters p {
     flex-basis: 33%;
     padding: .7rem;
     align-self: flex-end;
@@ -73,23 +74,29 @@ p {
     animation-delay: calc(.1s * var(--i));
 
 }
-span#letter1{
-    --i:1;
+
+span#letter1 {
+    --i: 1;
 }
-span#letter2{
-    --i:2;
+
+span#letter2 {
+    --i: 2;
 }
-span#letter3{
-    --i:3;
+
+span#letter3 {
+    --i: 3;
 }
-span#letter4{
-    --i:4;
+
+span#letter4 {
+    --i: 4;
 }
-span#letter5{
-    --i:5;
+
+span#letter5 {
+    --i: 5;
 }
-span#letter6{
-    --i:6;
+
+span#letter6 {
+    --i: 6;
 }
 
 @keyframes waviy {
@@ -104,6 +111,7 @@ span#letter6{
         transform: translateY(-20px)
     }
 }
+
 /**********************************************/
 /**********************************************/
 /**********************************************/
@@ -115,7 +123,7 @@ span#letter6{
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width:100%;
+    width: 100%;
 }
 
 .beauty-table tr.head {
