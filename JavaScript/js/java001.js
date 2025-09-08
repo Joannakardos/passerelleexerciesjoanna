@@ -1,5 +1,5 @@
-let huh = "huh let";
-var ah = "ah var"
+let bli = "huh let";
+var bloup = "ah var"
 try {
     if (true) {
         let huhscoped = "lol"/* c'est QUE dans le block la"*/
