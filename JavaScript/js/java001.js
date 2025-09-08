@@ -7,6 +7,7 @@ try {
         console.log(huhscoped, ahglobale);
     }
 catch (error) {
+        console.info("I caught the error");
         console.log(huhscoped);
         console.log(ahglobale);
     }
