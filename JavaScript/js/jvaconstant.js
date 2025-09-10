@@ -19,7 +19,6 @@ console.log(obj)
 obj.age = 99; /* on peut changer les valeurs attribuer a la variable de l'objet mais PAS l'objet en lui meme*/
 console.log(obj)
 
-const nulla = null;/* null ets considerer comme un objet et lorsque un objet est considerer comme null ON NE PEUT PAS CHANGER SA PROPERTIES*/
+const ah = null;/* null ets considerer comme un objet et lorsque un objet est considerer comme null ON NE PEUT PAS CHANGER SA PROPERTIES*/
 console.log(null);
-console.info('Typeoff nulla-->', Typeoff nulla);
 // nulla.property=0; donc sa la on peut pas 
